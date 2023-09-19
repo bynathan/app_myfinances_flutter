@@ -1,0 +1,10 @@
+^C:\USERS\NATHAN SILVA\DESKTOP\CURSO\MY_FINANCES_APP\BUILD\WINDOWS\CMAKEFILES\E5B780A3E0D22C5DB0316EE1D04FD052\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Nathan Silva/Desktop/Curso/my_finances_app/windows" "-BC:/Users/Nathan Silva/Desktop/Curso/my_finances_app/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Nathan Silva/Desktop/Curso/my_finances_app/build/windows/my_finances_app.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
