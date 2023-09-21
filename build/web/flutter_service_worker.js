@@ -3,9 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c",
-"assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+const RESOURCES = {"assets/AssetManifest.bin": "ab1ae990a3a78adee1129ce7a3a26cbd",
+"assets/AssetManifest.json": "176ea7311affa286b295c01be8c5e9b3",
+"assets/assets/fonts/Poppins-Bold.ttf": "08c20a487911694291bd8c5de41315ad",
+"assets/assets/fonts/Poppins-Light.ttf": "fcc40ae9a542d001971e53eaed948410",
+"assets/assets/fonts/Poppins-Medium.ttf": "bf59c687bc6d3a70204d3944082c5cc0",
+"assets/assets/fonts/Poppins-Regular.ttf": "093ee89be9ede30383f39a899c485a82",
+"assets/assets/fonts/Poppins-SemiBold.ttf": "6f1520d107205975713ba09df778f93f",
+"assets/FontManifest.json": "e3676b362897ff29a8cde36b920e0a04",
 "assets/fonts/MaterialIcons-Regular.otf": "ff266a15bda9a73f9326d6a31a1b39f1",
 "assets/NOTICES": "354aab7b2b96910d378c43404ffbb0eb",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
@@ -23,9 +28,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "3e9d5a6f738c77e3d8407fe48a93a374",
-"/": "3e9d5a6f738c77e3d8407fe48a93a374",
-"main.dart.js": "97899a8659caab4fa62362fba89734af",
+"index.html": "1e4e583f3ac7cc69da7ed468dd81f968",
+"/": "1e4e583f3ac7cc69da7ed468dd81f968",
+"main.dart.js": "67b645d25fcfa6aedb198072927591d6",
 "manifest.json": "832db8c0e30add1a488aab87c1237604",
 "version.json": "3473ef63cd7cfaa12ca025f5798bec98"};
 // The application shell files that are downloaded before a service worker can
