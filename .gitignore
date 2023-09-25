@@ -35,7 +35,6 @@ android/
 lib/
 linux/
 macos/
-windows/
 
 # Symbolication related
 app.*.symbols
